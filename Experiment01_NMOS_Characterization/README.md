@@ -1,4 +1,4 @@
-MOSET (NMOS) Characterization :
+## MOSET (NMOS) Characterization :
 
 
 • Aim
@@ -10,21 +10,21 @@ MOSET (NMOS) Characterization :
 • Conclusion
 
 
-Aim :
+# Aim :
         
    To obtain and plot the drain characteristics and transfer characteristics of an NMOS transistor using circuit simulation software (Cadence Virtuoso, ADE-L) and to use the gm/ID methodology to design the device for a target bias current.
 
-Design specification :
+# Design specification :
 
 
-Circuit description :
+# Circuit description :
 
 
-Simulation procedure :
+# Simulation procedure :
 
 
-Result :
+# Result :
  
-Observation :
+# Observation :
 
-Conclusion :
+# Conclusion :
