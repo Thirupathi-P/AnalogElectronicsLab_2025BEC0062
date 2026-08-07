@@ -2,4 +2,4 @@
 
 ### Cadence Lab Experiments.
 
-EXP -1 : MOSFET (NMOS) Characteristics
+EXP -1 : MOSFET (NMOS) Characterization
