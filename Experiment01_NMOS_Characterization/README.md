@@ -1,7 +1,7 @@
 # MOSET (NMOS) Characterization :
 
 
-• Aim<braek>
+• Aim<br>
 • Design specifications
 • Circuit description
 • Simulation procedure
