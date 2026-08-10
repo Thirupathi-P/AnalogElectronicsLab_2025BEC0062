@@ -32,12 +32,12 @@ Draw the NMOS test schematic in Virtuoso with Vgs and Vds bias sources connected
 <img width="1776" height="930" alt="image" src="https://github.com/user-attachments/assets/5be512dc-4cef-469d-b1df-f6cc976fc9df" />
 <br>
 
-
-
-
 ##  Simulation procedure :
 
-Before proceed Simulation click check and save for  
+Before proceed to Simulation, we need  to check our schematic by check and save. Now, Run the DC Operating point Analysis in ADE-L and plot the graph. Note the region of operation.
+
+Parameter Analysis :
+Use Tools -> Parametric Analysis to sweep the variable in the circuit.
 
 |S.No |Plot|	Swept variable|	Fixed / stepped variable|
 |----|------|----------------|---------------------------|
@@ -46,51 +46,25 @@ Before proceed Simulation click check and save for
 |3|Id vs Vds (constant Vgs)	|Vds: 0 → 1.2 V	|Vgs = 1.2 V (constant)|
 |4|Id vs Vds (for different values of Vgs)	|Vds: 0 → 1.2 V	|Vgs = 0, 0.3, 0.6, 0.9, 1.2 V|
 
-Refer the Simulations part. I uploaded the all plots 
+Refer the Simulations part. I uploaded the plots.
 
 
-## Observation :<br>
+## Observation :
 
+<br> The drain current of an MOS transistor depends on the applied gate voltage.<br>
+• When Vgs < Vth, the transistor remains OFF.  <br>
+• As VGS exceeds the threshold voltage (Vth), a conductive channel is formed between drain and source.  <br>
+• Beyond threshold, the drain current increases rapidly with increasing gate voltage, indicating strong inversion. <br>
+• Current flow from Drain to Source.
 
-<table>
-<tr style="background-color:#f8d7da;">
-<th>Region</th><th>Condition</th><th>Formula</th>
-</tr>
-<tr style="background-color:#fff3cd;">
-<td>Cutoff</td>
-<td>Vgs &lt; Vth</td>
-<td>ID = 0</td>
-</tr>
-<tr style="background-color:#d1ecf1;">
-<td>Linear (Triode)</td>
-<td>Vgs &gt; Vth and Vds &lt; (Vgs − Vth)</td>
-<td>ID = μnCox(W/L) [(Vgs − Vth)Vds − Vds²/2]</td>
-</tr>
-<tr style="background-color:#d4edda;">
-<td>Saturation</td>
-<td>Vgs &gt; Vth and Vds ≥ (Vgs − Vth)</td>
-<td>ID = ½ μnCox(W/L) (Vgs − Vth)²</td>
-</tr>
-</table>
+## Conclusion :
+<br> Refer the Simulations. <br>
 
-
-
-1. Two regions seen: triode (low VDS) and saturation (high VDS).<br>
-2. ID increases with both VGS and VDS, flattening in saturation.<br>
-3. Threshold voltage estimated from onset of ID rise in Id-Vgs plot.<br>
-4. Curves follow expected MOSFET square-law behavior.<br>
-
-## Conclusion :<br>
-
-Refer the Simulations.
-
-| S.No | Plot | Key Result |
-|------|------|------------|
-| 1 | Id vs Vgs (Vds = 1.2 V) | ID ≈ 0 below threshold, rises to ~0.93 mA at Vgs = 1.2 V |
-| 2 | Id vs Vgs (Vds stepped) | Higher Vds → higher ID for same Vgs (channel length modulation) |
-| 3 | Id vs Vds (Vgs = 1.2 V) | Triode rise, then saturates near ~0.93 mA |
-| 4 | Id vs Vds (Vgs stepped) | Clear triode + saturation regions; higher Vgs → higher ID(sat) |
-<br>
+Based on the Simulation.
+1. CUT-OFF        : Vgs < Vth<br>
+2. ON             : Vgs > Vth<br>
+3. LINEAR REGION  : Vds < Vgs- Vth<br>
+4. SATURATION     : Vds >= Vgs-Vth<br>
 
 
 ## Result:
