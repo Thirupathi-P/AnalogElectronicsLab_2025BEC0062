@@ -1,6 +1,17 @@
 # MOSET (NMOS) Characterization :
 
 
+
+## Design Specifications
+
+| S.No | Parameter | Value |
+|------|-----------|-------|
+| 1 | Technology | GPDK090 (90nm) |
+
+---
+
+## Circuit Description
+
 • Aim
 • Design specifications
 • Circuit description
