@@ -10,11 +10,10 @@
 • Conclusion
 
 
-## Aim :
+## Aim :<br>
         
-   To obtain and plot the drain characteristics and transfer characteristics of an NMOS transistor using circuit simulation software <br>
-   (Cadence Virtuoso, ADE-L) and to use the gm/ID methodology to design the device for a target bias current.
-
+   To obtain and plot the drain characteristics and transfer characteristics of an NMOS transistor using circuit simulation software (Cadence Virtuoso, ADE-L) and to use the gm/ID methodology to design the device for a target bias current.<br>
+   
 ## Design specification :<br>
 | S.No | Parameter | Value |
 |------|-----------|-------|
@@ -27,6 +26,7 @@
 | 7 | VGS range | 0 – 1.2 V |
 | 8 | VDS range | 0 – 1.2 V |
 
+<br>
 
 ## Circuit description : <br>
 A single NMOS transistor (NM0) is connected between two DC sources — Vds at the drain and Vgs at the gate. Source and bulk are tied to ground. This setup allows sweeping one voltage while fixing or stepping the other, to obtain both transfer (Id-Vgs) and drain (Id-Vds) characteristics.<br>
@@ -37,6 +37,7 @@ A single NMOS transistor (NM0) is connected between two DC sources — Vds at th
 
 
 ##  Simulation procedure :
+
 |S.No |Plot|	Swept variable|	Fixed / stepped variable|
 |----|------|----------------|---------------------------|
 |1|Id vs Vgs (constant Vds)|	Vgs: 0 → 1.2 V	|Vds = 1.2 V (constant)|
@@ -44,9 +45,19 @@ A single NMOS transistor (NM0) is connected between two DC sources — Vds at th
 |3|Id vs Vds (constant Vgs)	|Vds: 0 → 1.2 V	|Vgs = 1.2 V (constant)|
 |4|Id vs Vds (for different values of Vgs)	|Vds: 0 → 1.2 V	|Vgs = 0, 0.3, 0.6, 0.9, 1.2 V|
 
+Refer the Simulations part. I upload the all plots
 
-## Result :
+## Result :<br>
 
+Refer the Simulations.
+
+| S.No | Plot | Key Result |
+|------|------|------------|
+| 1 | Id vs Vgs (Vds = 1.2 V) | ID ≈ 0 below threshold, rises to ~0.93 mA at Vgs = 1.2 V |
+| 2 | Id vs Vgs (Vds stepped) | Higher Vds → higher ID for same Vgs (channel length modulation) |
+| 3 | Id vs Vds (Vgs = 1.2 V) | Triode rise, then saturates near ~0.93 mA |
+| 4 | Id vs Vds (Vgs stepped) | Clear triode + saturation regions; higher Vgs → higher ID(sat) |
+<br>
 
  
 ## Observation :<br>
