@@ -4,10 +4,9 @@
 • Design specifications
 • Circuit description
 • Simulation procedure
-• Results
 • Observations
 • Conclusion
-
+• Results
 
 ## Aim :<br>
         
@@ -28,7 +27,7 @@
 <br>
 
 ## Circuit description : <br>
-A single NMOS transistor (NM0) is connected between two DC sources — Vds at the drain and Vgs at the gate. Source and bulk are tied to ground. This setup allows sweeping one voltage while fixing or stepping the other, to obtain both transfer (Id-Vgs) and drain (Id-Vds) characteristics.
+Draw the NMOS test schematic in Virtuoso with Vgs and Vds bias sources connected to the device terminal. [Note : Body and Source are Connected]
 <br>
 <img width="1776" height="930" alt="image" src="https://github.com/user-attachments/assets/5be512dc-4cef-469d-b1df-f6cc976fc9df" />
 <br>
@@ -37,6 +36,8 @@ A single NMOS transistor (NM0) is connected between two DC sources — Vds at th
 
 
 ##  Simulation procedure :
+
+Before proceed Simulation click check and save for  
 
 |S.No |Plot|	Swept variable|	Fixed / stepped variable|
 |----|------|----------------|---------------------------|
@@ -79,18 +80,19 @@ Refer the Simulations part. I uploaded the all plots
 3. Threshold voltage estimated from onset of ID rise in Id-Vgs plot.<br>
 4. Curves follow expected MOSFET square-law behavior.<br>
 
-## Result :<br>
+## Conclusion :<br>
 
 Refer the Simulations.
 
----| S.No | Plot | Key Result |
----|------|------|------------|
----| 1 | Id vs Vgs (Vds = 1.2 V) | ID ≈ 0 below threshold, rises to ~0.93 mA at Vgs = 1.2 V |
----| 2 | Id vs Vgs (Vds stepped) | Higher Vds → higher ID for same Vgs (channel length modulation) |
----| 3 | Id vs Vds (Vgs = 1.2 V) | Triode rise, then saturates near ~0.93 mA |
----| 4 | Id vs Vds (Vgs stepped) | Clear triode + saturation regions; higher Vgs → higher ID(sat) |
+| S.No | Plot | Key Result |
+|------|------|------------|
+| 1 | Id vs Vgs (Vds = 1.2 V) | ID ≈ 0 below threshold, rises to ~0.93 mA at Vgs = 1.2 V |
+| 2 | Id vs Vgs (Vds stepped) | Higher Vds → higher ID for same Vgs (channel length modulation) |
+| 3 | Id vs Vds (Vgs = 1.2 V) | Triode rise, then saturates near ~0.93 mA |
+| 4 | Id vs Vds (Vgs stepped) | Clear triode + saturation regions; higher Vgs → higher ID(sat) |
 <br>
 
 
-## Conclusion :
-Drain and transfer characteristics were successfully simulated and match standard MOSFET theory, confirming correct model and setup. Results can be used to extract VTH and gm, and apply the gm/ID method for biasing.
+## Result:
+The drain and transfer characteristics NMOS device were obtained, the region of operation was Verifed from DC operating Point.
+
