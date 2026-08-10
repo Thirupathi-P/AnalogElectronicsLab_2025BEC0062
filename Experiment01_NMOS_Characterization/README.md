@@ -25,7 +25,7 @@
 ---| 6 | Supply voltage (VDD) | 1.2 V |
 ---| 7 | VGS range | 0 – 1.2 V |
 ---| 8 | VDS range | 0 – 1.2 V |
-
+---
 <br>
 
 ## Circuit description : <br>
@@ -44,7 +44,7 @@ A single NMOS transistor (NM0) is connected between two DC sources — Vds at th
 ---|2|Id vs Vgs (for different values of Vds)	|Vgs: 0 → 1.2 V |	Vds = 0, 0.3, 0.6, 0.9, 1.2 V|
 ---|3|Id vs Vds (constant Vgs)	|Vds: 0 → 1.2 V	|Vgs = 1.2 V (constant)|
 ---|4|Id vs Vds (for different values of Vgs)	|Vds: 0 → 1.2 V	|Vgs = 0, 0.3, 0.6, 0.9, 1.2 V|
-
+---
 Refer the Simulations part. I uploaded the all plots 
 
 
