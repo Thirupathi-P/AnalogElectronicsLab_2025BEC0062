@@ -18,13 +18,19 @@
 ## Design specification :
 
 
+
+
 ## Circuit description :
 
 
 
 
 ##  Simulation procedure :
-
+Plot	Swept variable	Fixed / stepped variable
+Id vs Vgs (constant Vds)	Vgs: 0 → 1.2 V	Vds = 1.2 V (constant)
+Id vs Vgs (family)	Vgs: 0 → 1.2 V	Vds = 0, 0.3, 0.6, 0.9, 1.2 V
+Id vs Vds (constant Vgs)	Vds: 0 → 1.2 V	Vgs = 1.2 V (constant)
+Id vs Vds (family)	Vds: 0 → 1.2 V	Vgs = 0, 0.3, 0.6, 0.9, 1.2 V
 
 
 ## Result :
