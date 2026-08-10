@@ -49,6 +49,31 @@ Refer the Simulations part. I uploaded the all plots
 
 
 ## Observation :<br>
+
+
+<table>
+<tr style="background-color:#f8d7da;">
+<th>Region</th><th>Condition</th><th>Formula</th>
+</tr>
+<tr style="background-color:#fff3cd;">
+<td>Cutoff</td>
+<td>Vgs &lt; Vth</td>
+<td>ID = 0</td>
+</tr>
+<tr style="background-color:#d1ecf1;">
+<td>Linear (Triode)</td>
+<td>Vgs &gt; Vth and Vds &lt; (Vgs − Vth)</td>
+<td>ID = μnCox(W/L) [(Vgs − Vth)Vds − Vds²/2]</td>
+</tr>
+<tr style="background-color:#d4edda;">
+<td>Saturation</td>
+<td>Vgs &gt; Vth and Vds ≥ (Vgs − Vth)</td>
+<td>ID = ½ μnCox(W/L) (Vgs − Vth)²</td>
+</tr>
+</table>
+
+
+
 1. Two regions seen: triode (low VDS) and saturation (high VDS).<br>
 2. ID increases with both VGS and VDS, flattening in saturation.<br>
 3. Threshold voltage estimated from onset of ID rise in Id-Vgs plot.<br>
