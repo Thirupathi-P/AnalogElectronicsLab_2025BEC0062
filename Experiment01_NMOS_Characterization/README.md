@@ -15,12 +15,23 @@
    To obtain and plot the drain characteristics and transfer characteristics of an NMOS transistor using circuit simulation software <br>
    (Cadence Virtuoso, ADE-L) and to use the gm/ID methodology to design the device for a target bias current.
 
-## Design specification :
-
-
+## Design specification :<br>
+| S.No | Parameter | Value |
+|------|-----------|-------|
+| 1 | Technology | GPDK090 (90nm) |
+| 2 | Device model | gpdk090_nmos1v |
+| 3 | Width (W) | 1 µm |
+| 4 | Length (L) | 100 nm |
+| 5 | Multiplier (m) | 1 |
+| 6 | Supply voltage (VDD) | 1.2 V |
+| 7 | VGS range | 0 – 1.2 V |
+| 8 | VDS range | 0 – 1.2 V |
 
 
 ## Circuit description :
+A single NMOS transistor (NM0) is connected between two DC sources — Vds at the drain and Vgs at the gate. Source and bulk are tied to ground. This setup allows sweeping one voltage while fixing or stepping the other, to obtain both transfer (Id-Vgs) and drain (Id-Vds) characteristics.
+<img width="1776" height="930" alt="image" src="https://github.com/user-attachments/assets/5be512dc-4cef-469d-b1df-f6cc976fc9df" />
+
 
 
 
