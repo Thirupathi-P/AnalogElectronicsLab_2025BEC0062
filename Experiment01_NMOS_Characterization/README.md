@@ -1,4 +1,4 @@
-# MOSET (NMOS) Characterization :
+# MOSFET (NMOS) Characterization :
 
 • Aim
 • Design specifications
