@@ -1,9 +1,5 @@
 # MOSET (NMOS) Characterization :
 
-
-
-## Circuit Description
-
 • Aim
 • Design specifications
 • Circuit description
