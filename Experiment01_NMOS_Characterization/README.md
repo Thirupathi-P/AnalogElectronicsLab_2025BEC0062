@@ -27,7 +27,7 @@
 <br>
 
 ## Circuit description : <br>
-Draw the NMOS test schematic in Virtuoso with Vgs and Vds bias sources connected to the device terminal. [Note : Body and Source are Connected]
+Draw the NMOS schematic in Virtuoso with Vgs and Vds bias sources connected to the device terminal. <br>[Note : Body and Source are Connected]
 <br>
 <img width="1776" height="930" alt="image" src="https://github.com/user-attachments/assets/5be512dc-4cef-469d-b1df-f6cc976fc9df" />
 <br>
