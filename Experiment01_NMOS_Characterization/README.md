@@ -58,9 +58,7 @@ Refer the Simulations part. I uploaded the plots.
 • Current flow from Drain to Source.
 
 ## Conclusion :
-<br> Refer the Simulations. <br>
-
-Based on the Simulation.
+Based on the Simulation.<br>
 1. CUT-OFF        : Vgs < Vth<br>
 2. ON             : Vgs > Vth<br>
 3. LINEAR REGION  : Vds < Vgs- Vth<br>
