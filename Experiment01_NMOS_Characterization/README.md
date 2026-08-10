@@ -45,7 +45,14 @@ A single NMOS transistor (NM0) is connected between two DC sources — Vds at th
 |3|Id vs Vds (constant Vgs)	|Vds: 0 → 1.2 V	|Vgs = 1.2 V (constant)|
 |4|Id vs Vds (for different values of Vgs)	|Vds: 0 → 1.2 V	|Vgs = 0, 0.3, 0.6, 0.9, 1.2 V|
 
-Refer the Simulations part. I upload the all plots
+Refer the Simulations part. I uploaded the all plots 
+
+
+## Observation :<br>
+1. Two regions seen: triode (low VDS) and saturation (high VDS).<br>
+2. ID increases with both VGS and VDS, flattening in saturation.<br>
+3. Threshold voltage estimated from onset of ID rise in Id-Vgs plot.<br>
+4. Curves follow expected MOSFET square-law behavior.<br>
 
 ## Result :<br>
 
@@ -59,12 +66,6 @@ Refer the Simulations.
 | 4 | Id vs Vds (Vgs stepped) | Clear triode + saturation regions; higher Vgs → higher ID(sat) |
 <br>
 
- 
-## Observation :<br>
-1.Two regions seen: triode (low VDS) and saturation (high VDS).<br>
-2.ID increases with both VGS and VDS, flattening in saturation.<br>
-3.Threshold voltage estimated from onset of ID rise in Id-Vgs plot.<br>
-4.Curves follow expected MOSFET square-law behavior.<br>
 
 ## Conclusion :
 Drain and transfer characteristics were successfully simulated and match standard MOSFET theory, confirming correct model and setup. Results can be used to extract VTH and gm, and apply the gm/ID method for biasing.
