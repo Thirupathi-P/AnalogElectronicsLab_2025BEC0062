@@ -2,14 +2,6 @@
 
 
 
-## Design Specifications
-
-| S.No | Parameter | Value |
-|------|-----------|-------|
-| 1 | Technology | GPDK090 (90nm) |
-
----
-
 ## Circuit Description
 
 • Aim
@@ -26,17 +18,17 @@
    To obtain and plot the drain characteristics and transfer characteristics of an NMOS transistor using circuit simulation software (Cadence Virtuoso, ADE-L) and to use the gm/ID methodology to design the device for a target bias current.<br>
    
 ## Design specification :<br>
----| S.No | Parameter | Value |
----|------|-----------|-------|
----| 1 | Technology | GPDK090 (90nm) |
----| 2 | Device model | gpdk090_nmos1v |
----| 3 | Width (W) | 1 µm |
----| 4 | Length (L) | 100 nm |
----| 5 | Multiplier (m) | 1 |
----| 6 | Supply voltage (VDD) | 1.2 V |
----| 7 | VGS range | 0 – 1.2 V |
----| 8 | VDS range | 0 – 1.2 V |
----
+| S.No | Parameter | Value |
+|------|-----------|-------|
+| 1 | Technology | GPDK090 (90nm) |
+| 2 | Device model | gpdk090_nmos1v |
+| 3 | Width (W) | 1 µm |
+| 4 | Length (L) | 100 nm |
+| 5 | Multiplier (m) | 1 |
+| 6 | Supply voltage (VDD) | 1.2 V |
+| 7 | VGS range | 0 – 1.2 V |
+ 8 | VDS range | 0 – 1.2 V |
+
 <br>
 
 ## Circuit description : <br>
@@ -49,12 +41,12 @@ A single NMOS transistor (NM0) is connected between two DC sources — Vds at th
 
 ##  Simulation procedure :
 
----|S.No |Plot|	Swept variable|	Fixed / stepped variable|
----|----|------|----------------|---------------------------|
----|1|Id vs Vgs (constant Vds)|	Vgs: 0 → 1.2 V	|Vds = 1.2 V (constant)|
----|2|Id vs Vgs (for different values of Vds)	|Vgs: 0 → 1.2 V |	Vds = 0, 0.3, 0.6, 0.9, 1.2 V|
----|3|Id vs Vds (constant Vgs)	|Vds: 0 → 1.2 V	|Vgs = 1.2 V (constant)|
----|4|Id vs Vds (for different values of Vgs)	|Vds: 0 → 1.2 V	|Vgs = 0, 0.3, 0.6, 0.9, 1.2 V|
+|S.No |Plot|	Swept variable|	Fixed / stepped variable|
+|----|------|----------------|---------------------------|
+|1|Id vs Vgs (constant Vds)|	Vgs: 0 → 1.2 V	|Vds = 1.2 V (constant)|
+|2|Id vs Vgs (for different values of Vds)	|Vgs: 0 → 1.2 V |	Vds = 0, 0.3, 0.6, 0.9, 1.2 V|
+|3|Id vs Vds (constant Vgs)	|Vds: 0 → 1.2 V	|Vgs = 1.2 V (constant)|
+|4|Id vs Vds (for different values of Vgs)	|Vds: 0 → 1.2 V	|Vgs = 0, 0.3, 0.6, 0.9, 1.2 V|
 ---
 Refer the Simulations part. I uploaded the all plots 
 
