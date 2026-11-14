@@ -2,7 +2,7 @@
 
 **Tools:** Cadence Virtuoso (ADE L, Spectre), Assura (DRC, LVS), Quantus QRC, gpdk090 (90 nm CMOS PDK)
 
-## Lab Experiments
+## Cadence Lab Experiments
 
 - EXP - 1 : MOSFET (NMOS) Characterization
 - EXP - 2 : CMOS Inverter Layout
