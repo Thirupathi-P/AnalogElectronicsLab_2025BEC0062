@@ -1,4 +1,4 @@
-# Analog Electronics Lab
+# Analog Electronics
 
 ## Cadence Lab Experiments
 
