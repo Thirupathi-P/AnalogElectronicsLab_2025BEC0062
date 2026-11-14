@@ -12,6 +12,7 @@
 5. [Results](#5-results)
 6. [Observations](#6-observations)
 7. [Conclusion](#7-conclusion)
+8. [Folder Structure](#8-folder-structure)
 
 ---
 
@@ -68,7 +69,8 @@
 
 ![Vx − Vy](./Waveforms/03_dc_vx_minus_vy_vs_vi1.png)
 
-Theory notes: [📄 Full Report (PDF)](./Report.pdf)
+Theory notes:  [📄 Full Report (PDF)](./Report.pdf)
+
 
 ### 5.2 AC analysis, differential mode
 ![Differential gain](./Waveforms/05_diff_mode_ac_gain_db20.png)
@@ -111,4 +113,13 @@ Theory notes: [📄 Full Report (PDF)](./Report.pdf)
 ## 7. Conclusion
 A resistive-load NMOS differential amplifier and a 5T-OTA were designed and simulated in Cadence Virtuoso using the gpdk090 process. The DC sweeps verified current steering (ID1 + ID2 = ISS = 200 µA) and the ±1.0 V output bounds. The AC analyses gave a mid-band differential gain of **15.54 dB** and a CMRR of about **142.8 dB**. The 5T-OTA with an active PMOS current-mirror load showed differential-to-single-ended conversion and a steep DC transition without passive resistors.
 
- 
+## 8. Folder Structure
+```
+Experiment04_Differential_Amplifier
+├── README.md
+├── Schematic/
+├── Simulation/
+├── Waveforms/
+└── Report.pdf
+```
+
