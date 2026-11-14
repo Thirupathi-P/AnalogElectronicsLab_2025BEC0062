@@ -4,10 +4,10 @@
 
 ## Cadence Lab Experiments
 
-EXP - 1 : MOSFET (NMOS) Characterization\\
-EXP - 2 : CMOS Inverter Layout\\
-EXP - 3 : Current Mirror\\
-EXP - 4 : Differential Amplifier\\
+EXP - 1 : MOSFET (NMOS) Characterization<\br>
+EXP - 2 : CMOS Inverter Layout<\br>
+EXP - 3 : Current Mirror <\br>
+EXP - 4 : Differential Amplifier<\br>
 
 ## Repository Structure
 
