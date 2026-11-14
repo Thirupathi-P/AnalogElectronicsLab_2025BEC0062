@@ -1,8 +1,9 @@
-# Experiment 02 – CMOS Inverter: Schematic to Post-Layout
+# Experiment 02 – CMOS Inverter: 
 
 [⬅ Back to all experiments](../README.md) · [📄 Full Report (PDF)](./Report.pdf)
 
 **Tools:** Cadence Virtuoso (ADE L, Spectre, Layout XL), Assura (DRC, LVS), Quantus QRC, gpdk090 (90 nm CMOS)
+## Schematic to Post-Layout
 
 ## Contents
 1. [Aim](#1-aim)
