@@ -68,7 +68,7 @@
 
 ![Vx − Vy](./Waveforms/03_dc_vx_minus_vy_vs_vi1.png)
 
-Theory notes: [large-signal analysis](./Simulation/00_theory_notes_large_signal.png) · [DC curves](./Simulation/00_theory_notes_dc_curves.png)
+Theory notes: [📄 Full Report (PDF)](./Report.pdf)
 
 ### 5.2 AC analysis, differential mode
 ![Differential gain](./Waveforms/05_diff_mode_ac_gain_db20.png)
